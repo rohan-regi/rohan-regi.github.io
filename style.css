@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #222222;
+}
+
+.navbar {
+  padding: 0rem;
+}
+.tth {
+  background-color: #222222;
+  color: #000;
+}
+.title1 {
+  font-size: 2.7rem;
+  color: white;
+}
+.navbar-toggler-icon {
+  color: #d5ddd5;
+  border-color: #d5ddd5;
+  background-color: #e54d26;
+  border-radius: 5px;
+}
+.nav-item {
+  margin-left: 0px;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+#navbarResponsive a {
+  color: #e54d26;
+}
+
+.fun {
+  width: 100%;
+  margin-bottom: 0rem;
+  border: #e54d26;
+  padding: 0px;
+  background-color: #e54d26;
+  color: #d5ddd5;
+  text-shadow: 1px 1px 15px #000;
+}
+.what {
+  color: white;
+}
+
+#introduction {
+  margin-top: 3em;
+}
+
+.carousel {
+  margin-top: 4em;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0em;
+}
+
+.carousel-indicators {
+  position: absolute;
+  margin-bottom: 6rem;
+}
+
+.btn-primary {
+  background-color: rgb(224, 81, 28);
+  border: 1px solid coral;
+  text-shadow: 1px 1px 15px #000;
+}
+
+.btn-primary:hover {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+
+.jumbotron {
+  padding: 1rem;
+  border-radius: 0;
+  color: black;
+  background-color: rgb(224, 81, 28);
+}
+.btn-outline-secondary {
+  margin-right: 0px;
+  color: white;
+  border: 1px solid coral;
+  border-width: 3px;
+}
+
+.padding {
+  padding-bottom: 1rem;
+}
+
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.fa-code {
+  color: #e54d26;
+}
+
+.fa-bold {
+  color: #563d7c;
+}
+
+.fa-css3 {
+  color: #2163af;
+}
+
+.fa-js {
+  color: rgb(255, 255, 54);
+}
+.fa-python {
+  color: yellow;
+  background-color: #2163af;
+  border-radius: 7px;
+}
+.fa-js,
+.fa-python,
+.fa-code,
+.fa-bold,
+.fa-css3 {
+  font-size: 4em;
+  margin: 1rem;
+}
+.p5,
+.python,
+.matlab {
+  width: 4em;
+  background-color: #222222;
+  padding-bottom: 2em;
+}
+
+.c,
+.git,
+.SciPy,
+.MatPlotLib {
+  width: 5em;
+  padding-bottom: 1em;
+}
+
+.pygame {
+  width: 9em;
+  margin: 1em;
+}
+
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+}
+
+.card {
+  background-color: rgb(224, 81, 28);
+  border-width: 5px;
+}
+
+.links {
+  color: #e54d26;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-instagram {
+  color: #c939c9;
+}
+
+.fa-github {
+  color: white;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-linkedin:hover {
+  color: #d5d5d5;
+}
+.fa-github:hover {
+  color: rgb(52, 52, 219);
+}
+
+footer {
+  background-color: rgb(224, 81, 28);
+  color: #222222;
+  padding-top: 1rem;
+  font-weight: 500;
+}
+
+footer p {
+  font-size: larger;
+}
+
+hr.light {
+  border-top: 1px solid #222222;
+  width: 75%;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: #222222;
+}
+.light {
+  font-weight: 800;
+}
+footer a {
+  /*  to stop from Default link colour blue in mobile devices */
+  color: #222222;
+}
+
+.line-200 {
+  border-color: white;
+  border-width: 2px;
+}
+hr.light-100 {
+  border-top: 1px solid #222222;
+  width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .social a {
+    font-size: 4em;
+    padding: 2em;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 200%;
+  }
+
+  .social a {
+    font-size: 2.5em;
+    padding: 1.4rem;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-indicators {
+    display: none;
+  }
+  .display-4 {
+    font-size: 160%;
+  }
+
+  .social a {
+    font-size: 2em;
+    padding: 0.7rem;
+  }
+}
+
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+[class*='col-'] {
+  padding: 1rem;
+}
